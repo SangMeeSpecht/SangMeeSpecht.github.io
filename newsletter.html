@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Newsletter Sign-up</title>
+</head>
+<body>
+	<h1>Newsletter Sign-up</h1>
+	<p>Want to keep up with the latest updates?  Sign up for our newsletter!</p>
+	<form action="nl-success.html" method="post">
+		<fieldset>
+			<div>
+				<label>First and Last name</label>
+				<input type="text" name="fullname">
+			</div>
+			<div>
+				<label>Email Address</label>
+				<input type="email" name="email">
+			</div>
+			<div>
+				<label>How often would you like to check for updates?</label>
+				<select name="frequency">
+					<option value="Daily">Daily</option>
+					<option value="Weekly">Weekly</option>
+					<option value="Every 2 weeks">Every 2 weeks</option>
+					<option value="Monthly">Monthly</option>
+				</select>
+			</div>
+			<div>
+				<input type="checkbox" name="Ready!" value="Ready">
+				Yes, I would like to receive newsletters.
+			</div>
+		</fieldset>
+		<button type="submit">Sign-up</button>
+	</form>
+    <p><footer><a href="index.html">Back to Homepage</a></footer></p>
+</body>
+</html>
