@@ -42,23 +42,25 @@ nav ul li a:visited {
 		width: 20%;
 		margin-top: 7%;
 		width: 100px;
+		display: block; 
+		z-index: -1;
 	}
 }
 
 @media screen and (max-width: 1165px) {
 	nav ul li {
 		font-size: 15px;
-		display: block;
 		margin-top: 5%;
 		padding: 5px;
+		display: block;
 	}
 }
 
 @media screen and (max-width: 760px) {
 	.center {
 		margin-left: 100%;
-		padding-left: 30%;
-	}
+		padding-left: 30%;	
+			}
 }
 
 h1 {
@@ -82,6 +84,8 @@ h1 {
 }
 
 .center {
+	padding-top: 5%;
+	padding-left: 100px;
 	text-align: center;
 	margin: auto;
 	color: #cce6ff;
@@ -100,7 +104,7 @@ h1 {
 }
 
 main {
-	margin: auto;
+	margin-left: 28%;
 	background: rgba(63, 191, 191, 0.5);
 	display: block;
 	max-width: 50%;
@@ -120,12 +124,11 @@ main img {
 }
 
 footer {
-	text-align: center;
 	font-family: Courier;
 	color: white;
+	text-align: center;
 }
 
 footer a {
 	color: white;
 }
-
